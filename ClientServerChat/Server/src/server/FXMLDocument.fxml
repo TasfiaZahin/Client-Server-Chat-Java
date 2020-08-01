@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="370.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="server.FXMLDocumentController">
+   <children>
+      <Text fx:id="title" layoutX="76.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SERVER" textAlignment="CENTER" wrappingWidth="234.13671875" />
+      <Button fx:id="connect" layoutX="310.0" layoutY="27.0" mnemonicParsing="false" onAction="#connect" prefHeight="27.0" prefWidth="73.0" text="Connect" />
+      <TextArea fx:id="sshow" layoutX="9.0" layoutY="82.0" prefHeight="275.0" prefWidth="481.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></TextArea>
+   </children>
+</AnchorPane>
